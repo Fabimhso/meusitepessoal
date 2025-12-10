@@ -121,6 +121,29 @@ hr {
     margin: 0 20px;
 }
 
+.tecnologiasicones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid indianred;
+    padding: 10px;
+    border-radius: 200px;
+    margin: 0 100px;
+}
+
+.tecnologiasicones img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.tecnologiasicones img:hover {
+    transform: scale(1.4);
+    transition: 0.7s;
+}
+
 /* ANIMACOES DE FUNDO, NAO MEXER */
 /* ANIMACOES DE FUNDO, NAO MEXER */
 /* ANIMACOES DE FUNDO, NAO MEXER */
