@@ -4,6 +4,52 @@
     font-style: normal;
 }
 
+#menu h1 {
+    color: red;
+    font-weight: bold;
+}
+
+#menu nav {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+navbar nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+navbar nav a:hover {
+    color: red;
+    transition: 0.3s;
+    display: flex;
+}
+
+.container h1 {
+    color: red;
+    font-size: 36px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.container h2 {
+    color: indianred;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.container p {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+strong {
+    color: red;
+}
+
 /* ANIMACOES DE FUNDO, NAO MEXER */
 /* ANIMACOES DE FUNDO, NAO MEXER */
 /* ANIMACOES DE FUNDO, NAO MEXER */
