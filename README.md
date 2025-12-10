@@ -1,3 +1,3 @@
 # Meu site pessoal para colocar no ar
 
-# Feito com HTML, CSS, bem simples, apenas para demonstrar.
+# Feito com HTML, CSS, Font Awesome, Emojipedia
