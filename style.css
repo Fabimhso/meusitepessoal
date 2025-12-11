@@ -383,3 +383,264 @@ hr {
     text-align: center;
     color: white;
 }
+
+/* ============================================ */
+/* MEDIA QUERIES PARA RESPONSIVIDADE */
+/* ============================================ */
+
+/* Tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .container h1 {
+        font-size: 1.5rem;
+        padding-right: 0;
+    }
+
+    #fotogato {
+        width: 50px;
+        height: 50px;
+        padding-left: 10px;
+    }
+
+    .tecnologiasicones {
+        margin: 20px 50px;
+        padding: 15px;
+    }
+
+    .tecnologiasicones img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .container navbar nav a {
+        margin: 0 15px;
+        font-size: 18px;
+    }
+}
+
+/* Celulares grandes e tablets pequenos (481px - 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        padding-right: 0;
+    }
+
+    #fotogato {
+        width: 40px;
+        height: 40px;
+        padding-left: 8px;
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+
+    #minhafoto {
+        width: 120px;
+        height: 120px;
+    }
+
+    .container h2 {
+        font-size: 24px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    pre {
+        padding: 0 10px;
+    }
+
+    pre p {
+        font-size: 16px;
+    }
+
+    .container a {
+        font-size: 16px;
+    }
+
+    .container navbar nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container navbar nav a {
+        margin: 0;
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .tecnologiasicones {
+        margin: 20px 20px;
+        padding: 15px;
+        border-radius: 30px;
+    }
+
+    .tecnologiasicones img {
+        width: 30px;
+        height: 30px;
+        margin: 8px 5px;
+    }
+
+    ul li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    ul img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer p {
+        font-size: 16px;
+        padding: 40px 10px;
+    }
+}
+
+/* Celulares pequenos (até 480px) */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .container h1 {
+        font-size: 1rem;
+        line-height: 1.5;
+        word-wrap: break-word;
+    }
+
+    #fotogato {
+        width: 35px;
+        height: 35px;
+        padding-left: 5px;
+    }
+
+    #minhafoto {
+        width: 100px;
+        height: 100px;
+        border: 3px solid red;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    pre {
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+
+    pre p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .container a {
+        font-size: 14px;
+    }
+
+    .container navbar nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .tecnologiasicones {
+        margin: 15px 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .tecnologiasicones img {
+        width: 30px;
+        height: 30px;
+        margin: 5px 3px;
+    }
+
+    .tecnologiasicones img:hover {
+        transform: scale(1.2);
+    }
+
+    ul {
+        padding: 0 10px;
+    }
+
+    ul li {
+        font-size: 14px;
+        margin-bottom: 12px;
+        word-wrap: break-word;
+    }
+
+    ul img {
+        width: 22px;
+        height: 22px;
+    }
+
+    footer p {
+        font-size: 14px;
+        padding: 30px 10px;
+    }
+
+    #email {
+        padding-top: 30px;
+    }
+
+    /* Ajustar animações de fundo para celulares */
+    .dot {
+        opacity: 0.5;
+    }
+
+    .dot:nth-child(n + 11) {
+        display: none;
+    }
+}
+
+/* Celulares muito pequenos (até 360px) */
+@media screen and (max-width: 360px) {
+    .container h1 {
+        font-size: 0.9rem;
+    }
+
+    #minhafoto {
+        width: 90px;
+        height: 90px;
+    }
+
+    .container h2 {
+        font-size: 18px;
+    }
+
+    .container p {
+        font-size: 13px;
+    }
+
+    pre p {
+        font-size: 13px;
+    }
+
+    .tecnologiasicones {
+        margin: 10px 5px;
+    }
+
+    .tecnologiasicones img {
+        width: 28px;
+        height: 28px;
+        margin: 4px 2px;
+    }
+
+    .container navbar nav a {
+        font-size: 13px;
+    }
+}
